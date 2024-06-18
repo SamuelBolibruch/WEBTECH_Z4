@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container, .information-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="date"],
+button[type="submit"] { /* Zmena tu! */
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%; /* Zmena tu! */
+}
+button[type="submit"] { /* Zmena tu! */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button[type="submit"]:hover { /* Zmena tu! */
+    background-color: #45a049;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between; /* Zmena tu! */
+    align-items: center;
+}
+
+.input-div {
+    flex: 1; /* Zmena tu! */
+    margin: 0 5px; /* Zmena tu! */
+    display: flex;
+    flex-direction: column;
+}
+
+.information-container {
+    display: none;
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.weather-info p {
+    margin-bottom: 0;
+}
+
+.label {
+    font-size: 1.1em; /* Zvýraznenie veľkosti textu */
+    font-weight: bold; /* Zvýraznenie tučného písma */
+}
+
+.margin-bottom {
+    margin-bottom: 3em;
+}
